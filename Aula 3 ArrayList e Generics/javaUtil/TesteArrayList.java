@@ -10,7 +10,7 @@ public class TesteArrayList {
 
 	public static void main(String[] args) {
 
-		ArrayList lista = new ArrayList();
+		ArrayList<Conta> lista = new ArrayList<Conta>(); // introdução ao generics, agora o Arrey so guarda conta
 		
 		Conta cc = new ContaCorrente(12,1);
 		Conta cp = new ContaPoupança(12,2);
