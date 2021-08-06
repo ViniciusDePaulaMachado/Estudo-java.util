@@ -20,7 +20,7 @@ public class TesteArrayList {
 		
 		System.out.println("tamanho: " + lista.size());
 		
-		Conta ref = (Conta)lista.get(0);
+		Conta ref = lista.get(0);
 		
 		System.out.println("Numero: " + ref.getNumero());
 		
