@@ -9,11 +9,11 @@ public abstract class Conta extends Object {
 
 	public Conta(int agencia, int numero) {
 		if (agencia < 1) {
-			throw new IllegalArgumentException("Agencia inválida");
+			throw new IllegalArgumentException("Agencia invÃ¡lida");
 		}
 
 		if (numero < 1) {
-			throw new IllegalArgumentException("Numero da conta inválido");
+			throw new IllegalArgumentException("Numero da conta invÃ¡lido");
 		}
 		this.agencia = agencia;
 		this.numero = numero;
@@ -75,4 +75,5 @@ public abstract class Conta extends Object {
 		}
 		return true;
 	}
+	
 }
